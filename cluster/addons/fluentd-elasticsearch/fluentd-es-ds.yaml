@@ -58,7 +58,7 @@ metadata:
 spec:
   selector:
     matchLabels:
-      name: fluentd-es
+      k8s-app: fluentd-es
   template:
     metadata:
       labels:
